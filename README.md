@@ -16,3 +16,9 @@
 ```
 <a href="http://collabcode.training">CollabCode.Training</a>
 ```
+
+# CSS
+
+É uma linguagem de estilo, isso quer dizer que ela tem as seguintes responsabilidades:
+
+- Visual;

@@ -1,5 +1,6 @@
 header {
   background-color: #e24647;
+  overflow: hidden;
 }
 
 h1,
@@ -10,6 +11,7 @@ a {
 h1 {
   font-size: 40px;
   font-family: "Noto Sans SC", sans-serif;
+  float: left;
 }
 
 a {
@@ -17,4 +19,5 @@ a {
   text-decoration: none;
   font-size: 21px;
   font-family: "Roboto", sans-serif;
+  float: right;
 }

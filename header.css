@@ -1,23 +1,27 @@
 header {
   background-color: #e24647;
-  overflow: hidden;
-}
-
-h1,
-a {
   color: #fff;
+  overflow: hidden;
+  margin-left: 115px;
+  margin-right: 115px;
+
+  padding: 55px 60px 95px 60px;
 }
 
 h1 {
   font-size: 40px;
-  font-family: "Noto Sans SC", sans-serif;
+  font-family: "Roboto", sans-serif;
   float: left;
 }
 
-a {
-  color: #fff;
-  text-decoration: none;
+nav {
   font-size: 21px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Segoe UI", "Roboto", sans-serif;
   float: right;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-size: inherit;
 }

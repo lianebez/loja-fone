@@ -1,0 +1,42 @@
+.description {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+.product-title {
+  color: inherit;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.attributes {
+  margin-bottom: 26px;
+  color: inherit;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.attributes span {
+  margin-left: 80px;
+}
+
+.attributes.-last {
+  margin-bottom: 70px;
+}
+
+.description-product {
+  color: inherit;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.description-product a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.description-product.-last {
+  margin-bottom: 98px;
+}

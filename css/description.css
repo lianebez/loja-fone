@@ -1,6 +1,8 @@
 .description {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
+  float: right;
+  width: 50%;
 }
 
 .product-title {
@@ -44,4 +46,17 @@
 .button-description {
   display: inline-block;
   margin-right: 40px;
+}
+
+.figure {
+  float: left;
+  width: 40%;
+  background-color: #ffffff;
+  border-radius: 0 150px 150px 0;
+}
+
+.figure img {
+  width: 100%;
+  height: auto;
+  display: block;
 }

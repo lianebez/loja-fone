@@ -40,3 +40,8 @@
 .description-product.-last {
   margin-bottom: 98px;
 }
+
+.button-description {
+  display: inline-block;
+  margin-right: 40px;
+}

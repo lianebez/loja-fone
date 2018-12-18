@@ -122,11 +122,11 @@ CSS -> .
 
 - Display
 
-\*inline (Deixa os elementos na mesma linha mas não cosneguimos definir width e hight)
+\*inline (Deixa os elementos na mesma linha mas não cosneguimos definir width e hight) - ganha o comportamento de uma palavra (conteúdo)
 
 \*block (Não deixa na mesma linha mas conseguimos definir width e hight)
 
-\*inline-block (Deica os elementos na mesma linha e conseguimos definir width e hight)
+\*inline-block (Deica os elementos na mesma linha e conseguimos definir width e hight) - ganha o comportamento de uma palavra (conteúdo)
 
 Funciona o vertical-align quando tem display inline um ao lado do outro (padrão baseline [texto do botão] top)
 

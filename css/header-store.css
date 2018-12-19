@@ -12,6 +12,28 @@
   text-transform: uppercase;
 }
 
+.header-store > .search-store {
+  display: inline-block;
+  float: right;
+  position: relative;
+  margin-right: 65px;
+  margin-right: 65px;
+}
+
+.header-store > .search-store > input {
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  width: 358px;
+  color: #ffffff;
+  background-color: transparent;
+  height: 24px;
+}
+
+input::placeholder {
+  color: #ffffff;
+  font-size: 20px;
+}
+
 .header-store > .navigation {
   font-size: 21px;
   font-family: "Segoe UI", "Roboto", sans-serif;

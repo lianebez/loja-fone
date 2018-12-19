@@ -1,3 +1,10 @@
+.wrap-button {
+  width: 554px;
+  margin-top: 98px;
+  text-align: left;
+  margin-left: 714px;
+}
+
 .button-store {
   display: inline-block;
   box-sizing: border-box;

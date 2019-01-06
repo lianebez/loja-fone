@@ -37,9 +37,19 @@
   margin-right: 60px;
   border-bottom: 1px solid transparent;
 }
-.header-store .action:hover {
-  border-bottom: 1px solid #fff;
-  transition: all 1s linear;
+
+.header-store .action:after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.5s ease, background-color 0.5s ease;
+}
+.header-store .action:hover:after {
+  width: 100%;
+  background: blue;
 }
 
 .header-store .action.-last {

@@ -20,24 +20,24 @@
   text-decoration: none;
   border: none;
   cursor: pointer;
-  border: 2px solid transparent;
 }
+
 .button-store:hover {
-  background-color: transparent;
-  border: 2px solid #ffffff;
+  background: #fff;
+  color: #252c41;
 }
 
 .button-store.-second {
   background-color: transparent;
   border: 2px solid #ffffff;
   width: 218px;
+  line-height: 56px;
   margin-right: 38px;
 }
 
 .button-store.-second:hover {
-  background-color: #252c41;
-  border-color: #252c41;
-  color: #fff;
+  background: #fff;
+  color: #e24647;
 }
 
 .button-store > button,

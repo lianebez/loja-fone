@@ -108,7 +108,7 @@ a, p, span, header, footer, h1, button, div, figure, img, form ...
 - Id (um por página)
 
 ```
-HHTML -> id=""
+HTML -> id=""
 CSS -> #
 ```
 
@@ -176,3 +176,22 @@ ao invés de button-store-second deixa apenas button-store.-second
 css vai procurar um elemento na página que tenha a classe button-store e também a classe -second [tem que ter as 2 classes]
 
 no html fica class="button-store -second"
+
+- Transition
+
+\* tipo da propriedade
+all - qq propriedade
+bakcdround-color - só muda a cor do fundo
+...
+
+\* duração
+s- segundos
+ms - milisegundos
+
+\* como a animação funciona
+ease - especifica um efeito de transição com um início lento, depois rápido e termina lentamente (este é o padrão)
+linear - especifica um efeito de transição com a mesma velocidade do início ao fim
+ease-in - especifica um efeito de transição com um início lento
+ease-out - especifica um efeito de transição com um final lento
+ease-in-out - especifica um efeito de transição com início e fim lentos
+cubic-bezier(n,n,n,n) - permite definir seus próprios valores em uma função cúbica-bezier

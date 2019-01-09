@@ -11,3 +11,16 @@
   transform: translateY(calc(100% + 98px));
   /* pega 100% da altura do wrap-product e add 98px; */
 }
+
+@media (max-width: 1330px) {
+  .wrap-product {
+    margin: 0 30px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 530px) {
+  .wrap-product > .buttons {
+    transform: translateY(calc(100% + 25px));
+  }
+}

@@ -77,9 +77,8 @@
   .header-store > .navigation {
     float: none;
     text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+    display: inline-block;
+    width: 100%;
   }
 }
 

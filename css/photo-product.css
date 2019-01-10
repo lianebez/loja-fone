@@ -6,17 +6,28 @@
   margin-right: 157px;
 }
 
-@media (max-width: 1330px) {
-  .container-store .photo-product {
-    margin: 0 30px 80px 55px;
-    border-radius: 150px;
+@media (max-width: 1325px) {
+  .photo-product {
+    margin-right: 140px;
+    border-radius: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1310px) {
+  .photo-product {
     display: block;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1310px) {
+  .photo-product {
+    height: auto;
   }
 
-  .container-store .photo-product img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+  .photo-product > .photo {
+    width: 100%;
   }
 }

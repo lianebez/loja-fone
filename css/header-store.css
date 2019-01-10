@@ -32,6 +32,10 @@
   vertical-align: bottom;
 }
 
+.header-store [type="search"]::placeholder {
+  color: inherit;
+}
+
 .header-store .action {
   display: inline-block;
   color: inherit;
@@ -40,9 +44,6 @@
   border-bottom: 1px solid transparent;
   padding-bottom: 8px;
   position: relative;
-}
-
-.header-store .action:hover {
 }
 
 .header-store .action.-last {
@@ -70,11 +71,14 @@
 @media (max-width: 1310px) {
   .header-store {
     padding-right: 60px;
-    margin-bottom: 40px;
   }
 }
 
 @media (max-width: 1235px) {
+  .header-store {
+    margin-bottom: 70px;
+  }
+
   .header-store > .title {
     float: none;
     text-align: center;

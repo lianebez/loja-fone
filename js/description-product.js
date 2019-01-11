@@ -23,8 +23,16 @@ function handleClick() {
 // DESAFIO
 const $second = window.document.querySelector(".-second");
 
-$second.addEventListener("click", handleClick);
+// $second.addEventListener("click", handleClick);
 
-function handleClick() {
-  console.log("deu certo");
+// function handleClick() {
+//   console.log("deu certo");
+// }
+
+const $last = window.document.querySelector(".-last");
+
+$second.addEventListener("click", btHandleClick);
+
+function btHandleClick(){
+    $last.innerHTML = "mudou";
 }

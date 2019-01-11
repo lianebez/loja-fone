@@ -20,3 +20,5 @@ function handleClick() {
 // addEventListener => add ouvinte de evento
 // evento => qualquer coisa que o usuário faça (click, arrastar, excrever)
 
+// DESAFIO
+const $second = window.document.querySelector(".-second");

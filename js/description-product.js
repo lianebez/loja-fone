@@ -14,25 +14,14 @@ const $heart = window.document.querySelector(".-heart");
 $heart.addEventListener("click", handleClick);
 
 function handleClick() {
-  console.log("ae");
+  // if ($heart.classList.contains("-active")) {
+  //   $heart.classList.remove("-active"); // quando tem a classe actiove
+  // } else {
+  //   $heart.classList.add("-active"); //quando Não tem a class active
+  // }
+
+  $heart.classList.toggle("-active");
 }
 
 // addEventListener => add ouvinte de evento
 // evento => qualquer coisa que o usuário faça (click, arrastar, excrever)
-
-// DESAFIO
-const $second = window.document.querySelector(".-second");
-
-// $second.addEventListener("click", handleClick);
-
-// function handleClick() {
-//   console.log("deu certo");
-// }
-
-const $last = window.document.querySelector(".-last");
-
-$second.addEventListener("click", btHandleClick);
-
-function btHandleClick(){
-    $last.innerHTML = "mudou";
-}

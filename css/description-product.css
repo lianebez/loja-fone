@@ -18,6 +18,11 @@
   transform: translateX(-100%);
   top: 8px;
   left: -48px;
+  cursor: pointer;
+}
+
+.description-product > .item.-active {
+  background-color: #fff;
 }
 
 .description-product > .item.-star {

@@ -112,10 +112,15 @@
     width: 50%;
     min-width: 655px;
     margin: 0 auto 60px;
+    position: relative;
   }
   .description-product > .title {
     font-size: 35px;
     text-align: center;
+  }
+
+  .description-product > .item.-heart {
+    left: 33px;
   }
 
   .description-product > .item.-star {
@@ -132,5 +137,12 @@
   .description-product {
     width: 90%;
     min-width: auto;
+  }
+}
+
+@media (max-width: 440px) {
+  .description-product > .item.-heart {
+    position: static;
+    transform: none;
   }
 }

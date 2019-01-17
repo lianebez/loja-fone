@@ -112,7 +112,6 @@
     width: 50%;
     min-width: 655px;
     margin: 0 auto 60px;
-    position: relative;
   }
   .description-product > .title {
     font-size: 35px;
@@ -120,7 +119,8 @@
   }
 
   .description-product > .item.-heart {
-    left: 33px;
+    left: auto;
+    transform: none;
   }
 
   .description-product > .item.-star {
@@ -140,9 +140,8 @@
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 475px) {
   .description-product > .item.-heart {
     position: static;
-    transform: none;
   }
 }

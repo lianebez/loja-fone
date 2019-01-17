@@ -88,8 +88,6 @@
   .header-store > .navigation {
     float: none;
     text-align: center;
-    display: inline-block;
-    width: 100%;
   }
 }
 
@@ -100,7 +98,18 @@
   }
 
   .header-store [type="search"] {
-    display: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transform: translateX(-88%);
+    background-color: #fff;
+    color: #000;
+    transition: transform 200ms linear;
+  }
+
+  .header-store .-active[type="search"] {
+    transform: translateX(0);
+    transition: transform 300ms cubic-bezier(0, 0, 0.96, 1.26);
   }
 }
 

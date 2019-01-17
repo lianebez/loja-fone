@@ -8,61 +8,88 @@
 
 ## TAGS
 
+- `<! --...-->`: Comentário no HTML
 - `<!DOCTYPE html>`: Informa ao navegador que está utilizando HTML5;
+- `title`: Título do documento;
 - `html`: Define um arquivo HTML;
 - `head`: Área onde são colocadas as tags de descrição e importações
 - `body`: Área onde a estrutura de diagramação é definida;
 - `header`: Define semânticamente uma área de cabeçalho;
-- `h1`: Define semânticamente um título de alta importância (headeing 1 a 6);
 - `nav`: Define semânticamente uma área de navegação;
-- `ul`:
-- `<a>`: Link (a = anchor)
+- `menu`: Especifica uma lista de menus;
+- `main`: Especifica a área de conteúdo principal de um documento HTML.;
+- `article`: Especifica um artigo;
+- `aside`: Representadas como barras laterais. ;
+- `footer`: Rodapé da página;
+- `div`: Seção em um documento;
+- `dl`: description list (Lista de definição) - descrever algo como se fosse a div;
+- `dt`: description title (Termo de definição) - título do que eu estou descrevendo - padrão display:block;
+- `dd`: define description - definindo o que eu estrou escrevendo
+- `h1`...`h6`: Define semânticamente um título de alta importância (headeing 1 a 6);
+- `p`: parágrafo;
+- `ul`: Lista não ordenada;
+- `ol`: Lista ordenada;
+- `li`: Item da lista;
+- `<a>`: Link (a = anchor);
   Utilizado para colocar um link para outra página ou que leva para um ponto da página atual. Usar essa tag junto com o atributo `href`.
-  Exemplo de um `a` que o usuário é direcionado para o site da callabcode.training:
+  Exemplo de um `a` que o usuário é direcionado para o site da callabcode.training
 
 ```
 <a href="http://collabcode.training">CollabCode.Training</a>
 ```
 
--`dl`: description list - descrever algo como se fosse a div
-
--`dt`: description title - título do que eu estou descrevendo - padrão display:block
-
--`dd`: define description - definindo o que eu estrou escrevendo
-
-<!DOCTYPE html>: Informa ao navegador que está utilizando HTML5;
-
-html: Define um arquivo HTML;
-head: Área onde são colocadas as tags de descrição e importações
-body: Área onde a estrutura de diagramação é definida;
-header: Define semânticamente uma área de cabeçalho;
-h1: Define semânticamente um título de alta importância;
-nav: Define semânticamente uma área de navegação;
-a: De anchor("âncora"), utilizado para colocar um link para outra página ou que leva para um ponto da página atual.
+- `span`: Seção em um documento;
+- `strong`: Texto forte;
+- `small`: Texto pequeno;
+- `figure`: Grupo de conteúdo de mídia e sua legenda;
+- `figcaption`: Especifica a legenda para o figureelemento.;
+- `img`: Imagem;
+- `form`: Formulário;
+- `fieldset`: Especifica um conjunto de campos;
+- `legend`: Título em um conjunto de campos;
+- `label`: Rótulo para um controle de formulário;
+- `input`: Campo de entrada;
+- `select`: Lista de seleção;
+- `textarea`: Área de texto;
+- `button`: Botão;
 
 # CSS
 
 É uma linguagem de estilo, isso quer dizer que ela tem as seguintes responsabilidades:
+A sintaxe do CSS é: seletor {propriedade: valor;}
 
 - Visual;
 
--`background` (define a cor do fundo)
+## UNIDADES DE VALORES
+
+- `px`: Unidade de pixels;
+- `em`: Indicada para tamanhos de fontes;
+- `%`: Unidade de porcentagens;
+- `Hexadecimal`: Propriedades de cor;
+
+## TAGS
+
+-`background`: define a cor do fundo;
 
 ```
 background:
 background-color:
 background-img:
+background-attachment: define se a imagem fica fixa ou não enquanto rolamos a tela;
+background-position: define onde a imagem de fundo é posicionada;
+background-clip: define a área onde a imagem de fundo é aplicada;
+background-origin: define a posição de origem da imagem em um elemento;
+background-size: define as dimensões da imagem de fundo.
 ```
 
--`color` (define a cor)
+- `color`: define a cor;
+- `button`: Botão;
+- `inherit`: herdar do elemento pai;
+- `font-family`: define a família da fonte;
 
--`inherit` (herdar do elemento pai)
+-`font-size` (define o tamanho da fonte);
 
--`font-family` (define a família da fonte)
-
--`font-size` (define o tamanho da fonte)
-
--`opacity` (opacidade - vai de 1 a 0)
+-`opacity` (opacidade - vai de 1 a 0);
 
 - Float (flutuar)
 

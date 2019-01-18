@@ -11,8 +11,18 @@
 - `<! --...-->`: Comentário no HTML
 - `<!DOCTYPE html>`: Informa ao navegador que está utilizando HTML5;
 - `title`: Título do documento;
+
+```
+<title>Título do site</title>
+```
+
 - `html`: Define um arquivo HTML;
-- `head`: Área onde são colocadas as tags de descrição e importações
+
+```
+<html></html>
+```
+
+- `head`: Área onde são colocadas as tags de descrição e importações;
 - `body`: Área onde a estrutura de diagramação é definida;
 - `header`: Define semânticamente uma área de cabeçalho;
 - `nav`: Define semânticamente uma área de navegação;
@@ -73,8 +83,8 @@ A sintaxe do CSS é: seletor {propriedade: valor;}
 
 ```
 background:
-background-color:
-background-img:
+background-color: define cor de fundo;
+background-img: define imagem  no fundo;
 background-attachment: define se a imagem fica fixa ou não enquanto rolamos a tela;
 background-position: define onde a imagem de fundo é posicionada;
 background-clip: define a área onde a imagem de fundo é aplicada;
@@ -86,16 +96,19 @@ background-size: define as dimensões da imagem de fundo.
 - `button`: Botão;
 - `inherit`: herdar do elemento pai;
 - `font-family`: define a família da fonte;
+- `font-size` (define o tamanho da fonte);
+- `opacity` (opacidade - vai de 1 a 0);
 
--`font-size` (define o tamanho da fonte);
+- `float`: faz o elemento flutuar;
 
--`opacity` (opacidade - vai de 1 a 0);
+1 Valores:
 
-- Float (flutuar)
+- left: flutuar a esquerda;
+- right: flutuar a direita;
+- none: não flutuar;
 
 ```
-float: left - esquerda
-float: right - direita
+float: { left; }
 ```
 
 - `overflow`(recalcular o contexto)
@@ -204,12 +217,17 @@ css vai procurar um elemento na página que tenha a classe button-store e també
 
 no html fica class="button-store -second"
 
-- Transition
+- `Transition`: propriedade para fazer
 
-\* tipo da propriedade
-all - qq propriedade
-bakcdround-color - só muda a cor do fundo
-...
+```
+transition: { propriedade tempo da animação tipo de animação; }
+```
+
+Exemplo:
+
+```
+transition: { color 200ms linear; }
+```
 
 \* duração
 s- segundos
@@ -222,3 +240,25 @@ ease-in - especifica um efeito de transição com um início lento
 ease-out - especifica um efeito de transição com um final lento
 ease-in-out - especifica um efeito de transição com início e fim lentos
 cubic-bezier(n,n,n,n) - permite definir seus próprios valores em uma função cúbica-bezier
+
+# JAVASCRIPT
+
+let
+const
+document
+textContent
+
+- `querySelector`: ;
+- `querySelectorAll`: ;
+- `addEventListener`: ;
+- `click`: ;
+- `function`: ;
+- `key`: ;
+- `positionLast`: ;
+- `this`: ;
+- `classList`: ;
+- `toggle`: ;
+- `remove`: ;
+- `add`: ;
+- ``: ;
+- ``: ;

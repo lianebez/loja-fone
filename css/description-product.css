@@ -93,20 +93,6 @@
   text-decoration: none;
 }
 
-.star-product ul {
-  margin-bottom: 25px;
-}
-
-.star-product ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.star-product ul li img {
-  width: 25px;
-  height: 25px;
-}
-
 @media (max-width: 1310px) {
   .description-product {
     width: 50%;
